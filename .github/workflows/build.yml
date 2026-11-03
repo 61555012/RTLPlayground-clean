@@ -39,19 +39,43 @@ jobs:
         run: cd branch && make machine_check
       - name: Make project (4x2/RTL8372)
         run: mkdir -p /tmp/branch /tmp/main && cd branch && make CI=1 MACHINE="KEEPLINK_KP_9000_6XHML_X2" && cp -r output/KEEPLINK_KP_9000_6XHML_X2/rtlplayground.map output/KEEPLINK_KP_9000_6XHML_X2/rtlplayground.mem output/KEEPLINK_KP_9000_6XHML_X2/html_min /tmp/branch/
+      - name: Save build output (4x2/RTL8372)
+        run: cp -r branch/output /tmp/artifacts_4x2
       - name: Make project (8x1/RTL8373)
         run: cd branch && make CI=1 MACHINE="KEEPLINK_KP_9000_9XHML_X_V3_1"
+      - name: Save build output (8x1/RTL8373)
+        run: cp -r branch/output /tmp/artifacts_8x1
       - name: Make project (5x1/RTL8372 RY-5GT-1SX)
         run: cd branch && make CI=1 MACHINE="RUIYING_RY_5GT_1SX"
+      - name: Save build output (5x1/RTL8372 RY-5GT-1SX)
+        run: cp -r branch/output /tmp/artifacts_5x1
       - name: Make project with the health instrumentation
         run: cd branch && make clean && make CI=1 MACHINE="KEEPLINK_KP_9000_6XHML_X2" HEALTH=1
+      - name: Save build output (health instrumentation)
+        run: cp -r branch/output /tmp/artifacts_health
       - name: Make project with the debug output
         run: cd branch && make clean && make CI=1 MACHINE="KEEPLINK_KP_9000_6XHML_X2" DEBUG=1
+      - name: Save build output (debug output)
+        run: cp -r branch/output /tmp/artifacts_debug
       - name: Make main
         run: |
           ln -s ../branch/toolchain main/toolchain
           PATH="$(echo "$PWD"/branch/toolchain/sdcc-*/bin):$PATH"
           cd main && make CI=1 MACHINE="KEEPLINK_KP_9000_6XHML_X2" && cp -r output/KEEPLINK_KP_9000_6XHML_X2/rtlplayground.map output/KEEPLINK_KP_9000_6XHML_X2/rtlplayground.mem output/KEEPLINK_KP_9000_6XHML_X2/html_min /tmp/main/
+      - name: Save build output (main)
+        run: cp -r main/output /tmp/artifacts_main
       - name: Calculate bank growth
         run: |
           bash branch/tools/bank_occupancy.sh KP_9000_6XHML_X2 /tmp/main /tmp/branch >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload firmware artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware
+          path: |
+            /tmp/artifacts_4x2/
+            /tmp/artifacts_8x1/
+            /tmp/artifacts_5x1/
+            /tmp/artifacts_health/
+            /tmp/artifacts_debug/
+            /tmp/artifacts_main/
+          if-no-files-found: error
