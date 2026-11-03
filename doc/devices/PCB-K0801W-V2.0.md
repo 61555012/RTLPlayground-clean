@@ -25,11 +25,11 @@ Using SPI clamp in-board is the only method for initial installation.
 
 Top side
 
-<img src="photos/PCB-K0801W-V2.0/PCB-top.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-K0801W-V2.0/PCB-top.jpg" width="300" />
 
 Bottom
 
-<img src="photos/PCB-K0801W-V2.0/PCB-bottom.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-K0801W-V2.0/PCB-bottom.jpg" width="300" />
 
 ## Power supply
 

@@ -18,6 +18,6 @@ The BoyaMicro 25Q16BSSIG flash chip is supported by flashprog with chip name "B.
 
 The board is marked `PCB-K0501W-V2.0 DIP-K0501WS-V2.0`.
 
-<img src="photos/PCB-K0501W-V2.0/pcb-top.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-K0501W-V2.0/pcb-top.jpg" width="300" />
 
-<img src="photos/PCB-K0501W-V2.0/pcb-bottom.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-K0501W-V2.0/pcb-bottom.jpg" width="300" />

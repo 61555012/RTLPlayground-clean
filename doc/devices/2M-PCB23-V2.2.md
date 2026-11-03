@@ -7,7 +7,7 @@
 
 ## PCB
 
-<img src="photos/2M-PCB23-V2.2/2M-PCB23-V2.2-top.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/2M-PCB23-V2.2/2M-PCB23-V2.2-top.jpg" width="300" />
 
 ## Port overview
 

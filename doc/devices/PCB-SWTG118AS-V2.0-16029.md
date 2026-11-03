@@ -17,9 +17,9 @@ The PHY and flash-chip models for the tested Horaco units remain unverified.
 
 ## Photos
 
-<img src="photos/PCB-SWTG118AS-V2.0-16029/front.png" width="800" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG118AS-V2.0-16029/front.png" width="800" />
 
-<img src="photos/PCB-SWTG118AS-V2.0-16029/label.jpg" width="800" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG118AS-V2.0-16029/label.jpg" width="800" />
 
 ## PCB
 

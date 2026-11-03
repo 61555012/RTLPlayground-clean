@@ -13,7 +13,7 @@
   - 1 × SFP+: 1000 / 2500 / 10000 Mbps
 - **Power**: 12V DC, 1A  5525 connector 
 
-<img src="photos/PCB-SWTG024AS-V2.0_16895/label.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-V2.0_16895/label.jpg" width="300" />
 
 ### What works
 The device is fully supported:
@@ -28,11 +28,11 @@ The device is fully supported:
 
 Top side
 
-<img src="photos/PCB-SWTG024AS-V2.0_16895/pcb_top.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-V2.0_16895/pcb_top.jpg" width="300" />
 
 Bottom
 
-<img src="photos/PCB-SWTG024AS-V2.0_16895/pcb_bottom.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-V2.0_16895/pcb_bottom.jpg" width="300" />
 
 ### J1, serial console
 

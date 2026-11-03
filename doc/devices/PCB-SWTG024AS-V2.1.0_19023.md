@@ -14,7 +14,7 @@
 - **Power**: 1A @ 12V DC
 
 #### Xikestore SKS-3200-4E2X label
-<img src="photos/PCB-SWTG024AS-V2.1.0_19023/label.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-V2.1.0_19023/label.jpg" width="300" />
 
 ### What works
 - ALL 2.5GBASE-T RJ45 ports work at 10/100/1000/2500 Mbps
@@ -28,11 +28,11 @@
 
 Top side
 
-<img src="photos/PCB-SWTG024AS-V2.1.0_19023/pcb-top.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-V2.1.0_19023/pcb-top.jpg" width="300" />
 
 Bottom
 
-<img src="photos/PCB-SWTG024AS-V2.1.0_19023/pcb-bottom.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-V2.1.0_19023/pcb-bottom.jpg" width="300" />
 
 ### Serial console
 

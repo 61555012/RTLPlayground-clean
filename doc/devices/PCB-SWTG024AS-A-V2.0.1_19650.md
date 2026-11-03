@@ -20,7 +20,7 @@ It is highly similar to PCB-SWTG024AS-V2.0_16895, with the only difference being
   - 4 × RJ45: 10/100/1000/2500 Mbps
   - 2 × SFP+: 1000 / 2500 / 10000 Mbps
 
-<img src="photos/PCB-SWTG024AS-A-V2.0.1_19650/horaco-zx-sg4t2-label.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-A-V2.0.1_19650/horaco-zx-sg4t2-label.jpg" width="300" />
 
 ### What works
 The device is fully supported:
@@ -34,11 +34,11 @@ The device is fully supported:
 
 Top side
 
-<img src="photos/PCB-SWTG024AS-A-V2.0.1_19650/horaco-zx-sg4t2-pcb-top.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-A-V2.0.1_19650/horaco-zx-sg4t2-pcb-top.jpg" width="300" />
 
 Bottom
 
-<img src="photos/PCB-SWTG024AS-A-V2.0.1_19650/horaco-zx-sg4t2-pcb-bottom.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/logicog/RTLPlayground/main/doc/devices/PCB-SWTG024AS-A-V2.0.1_19650/horaco-zx-sg4t2-pcb-bottom.jpg" width="300" />
 
 On Horaco HC-SWTG124AS with board PCB-SWTG024AS-A-V2.0.1_19650 the reset button is soldered at `SW1` (on the top left, GPIO48).
 
