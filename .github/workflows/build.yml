@@ -41,6 +41,8 @@ jobs:
         run: mkdir -p /tmp/branch /tmp/main && cd branch && make CI=1 MACHINE="KEEPLINK_KP_9000_6XHML_X2" && cp -r output/KEEPLINK_KP_9000_6XHML_X2/rtlplayground.map output/KEEPLINK_KP_9000_6XHML_X2/rtlplayground.mem output/KEEPLINK_KP_9000_6XHML_X2/html_min /tmp/branch/
       - name: Make project (8x1/RTL8373)
         run: cd branch && make CI=1 MACHINE="KEEPLINK_KP_9000_9XHML_X_V3_1"
+      - name: Make project (5x1/RTL8372 RY-5GT-1SX)
+        run: cd branch && make CI=1 MACHINE="RUIYING_RY_5GT_1SX"
       - name: Make project with the health instrumentation
         run: cd branch && make clean && make CI=1 MACHINE="KEEPLINK_KP_9000_6XHML_X2" HEALTH=1
       - name: Make project with the debug output
