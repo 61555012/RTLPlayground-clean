@@ -5,6 +5,12 @@
 ## Added
 
 - Devices
+  - Support the Ruiying RY-5GT-1SX (PCB marking `FG-5GT-1SX_V1.1`), an RTL8372N
+    based 5x2.5G + 1xSFP+ unmanaged switch. Four ports come from the internal
+    PHYs, the fifth RJ45 port uses an external RTL8221B on SDS0, flash is a
+    4 MB PUYA `P25Q32SH`. The port LEDs need `LED_GLB_IO_EN` set for the twelve
+    pads the six ports are wired to. New machine target `RUIYING_RY_5GT_1SX`,
+    see `doc/devices/FG-5GT-1SX_V1.1.md`.
   - Support the hongyavision HYWS-SGT0204S (PCB marking `2G5F4_10G2_V1.01`), an
     RTL8372 based 4x2.5G + 2xSFP+ unmanaged switch with a 512 KB Bright Moon
     `T25S40` flash. It is a sibling of the KP-9000-6XH-X2 (2M-PCB43-V1.1) with
